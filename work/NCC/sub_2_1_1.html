@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="inner">
+                <a href="#!" class="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="menu_wrap">
+                    <div class="dep_1">
+                        <a href="#!">Introduction</a>
+                        <div class="dep_2">
+                            <a href="#!">History</a>
+                        </div>
+                    </div>
+                    <div class="dep_1">
+                        <a href="#!">Service</a>
+                        <div class="dep_2"></div>
+                    </div>
+                    <div class="dep_1">
+                        <a href="#!">Project</a>
+                        <div class="dep_2"></div>
+                    </div>
+                    <div class="dep_1">
+                        <a href="#!">Publications</a>
+                        <div class="dep_2"></div>
+                    </div>
+                    <div class="dep_1">
+                        <a href="#!">Community</a>
+                        <div class="dep_2">
+                            <a href="#!">Board</a>
+                            <a href="#!">News</a>
+                            <a href="#!">Contact</a>
+                        </div>
+                    </div>
+                    <div class="menu_btn_c">
+                        <img src="img/icon16.png" alt="">
+                    </div>
+                </div>
+                <div class="menu_btn">
+                    <img src="img/icon15.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="con7">
+                <div class="w1400">
+                    <a href="#!" class="home_icon">
+                        <img src="img/icon17.png" alt="">
+                    </a>
+                    <div class="dep1 sel_btn">
+                        <a href="#!">SERVICE</a>
+                        <div class="dep2">
+                            <a href="#!">INTRODUCTION</a>
+                            <a href="#!" class="on">SERVICE</a>
+                            <a href="#!">PROJECT</a>
+                            <a href="#!">PUBLICATIONS</a>
+                            <a href="#!">COMMUNITY</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="con8">
+                <div class="w1400">
+                    <div class="tx1">SERVICE</div>
+                </div>
+            </div>
+            <div class="con_sub con30">
+                <div class="con10 w1400">
+                    <div class="tx1">유방암 병리</div>
+                    <div class="tx2">
+                        유방암 병리 영상 100,000장(악성 75,000장, 양성 25,000장)의 데이터 셋을 기준으로
+                        등록하신 영상을 AI 분석하여 유방암에 대한 진단 시뮬레이션을 진행합니다.
+                    </div>
+                </div>
+                <div class="con11 w1400 mb20">
+                    <div class="tx1">데이터 분석 등록</div>
+                    <div class="tx2 mb50">
+                        · 분석 이미지는 최대 5장까지 등록 가능하며, 1장당 10MB 미만의 이미지만 등록하실 수 있습니다. (가로, 세로 512pixel 사이즈만 가능) <br>
+                        · 분석 이미지는 jpg 또는 png 형식의 이미지만 등록하실 수 있습니다.
+                    </div>
+                    <div class="txw mb20">
+                        <div class="tx3">분석 대장</div>
+                        <input type="text" placeholder="분석 대상자 성명을 입력해주세요.">
+                    </div>
+                    <div class="txw">
+                        <div class="tx3 lh80">분석 이미지</div>
+                        <div class="rri">
+                            <div id="dropZone" class="dropZone dropZone2">
+                                <div class="upload-btn-wrapper">
+                                    <input type="file" id="input_file" multiple="multiple" />
+                                    <label for="input_file" class="file_btn">이미지 추가</label>
+                                </div>
+                                <div id="fileDragDesc" class="dropBox">
+                                    <img src="img/icon31.png" alt="">
+                                    여기로 이미지 파일을 끌어오세요.<span class="gray">또는</span></div>
+                            </div>
+                            <table id="fileListTable">
+                                <tbody id="fileTableTbody">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <a href="#!" class="bottom_btn">데이터 분석 진행</a>
+                </div>
+                <div class="con11 w1400 mb20">
+                    <div class="tx1">데이터 분석 결과</div>
+                    <div class="con12">
+                        <img src="img/img5.png" alt="" class="imgOne">
+                        <div class="ri">
+                            <div class="txT">
+                                <div class="tx4">
+                                    분석 대상<span class="cenB">:</span>홍길동
+                                </div>
+                                <div class="tx4">
+                                    분석 결과<span class="cenB">:</span><span class="red">정상</span>
+                                </div>
+                            </div>
+                            <div class="txB">
+                                <div class="tx2">
+                                    · 제공되는 분석 결과는 정확한 진단 결과가 아닌 예측 정보이므로, 정확한 진단은 전문 의료기관에 의뢰하여
+                                    주시기 바랍니다.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="con11 w1400">
+                    <div class="tx1">데이터 분석 등록</div>
+                    <div class="tx2 mb50">
+                        · 분석 이미지는 최대 5장까지 등록 가능하며, 1장당 10MB 미만의 이미지만 등록하실 수 있습니다. (가로, 세로 512pixel 사이즈만 가능) <br>
+                        · 분석 이미지는 jpg 또는 png 형식의 이미지만 등록하실 수 있습니다.
+                    </div>
+                    <div class="txw mb20">
+                        <div class="tx3">분석 대장</div>
+                        <input type="text" placeholder="분석 대상자 성명을 입력해주세요.">
+                    </div>
+                    <div class="txw">
+                        <div class="tx3 lh80">분석 이미지</div>
+                        <div class="rri">
+                            <div id="dropZone" class="dropZone">
+                                <div class="upload-btn-wrapper">
+                                    <input type="file" id="input_file" multiple="multiple" />
+                                    <label for="input_file" class="file_btn">이미지 추가</label>
+                                </div>
+                                <div id="fileDragDesc" class="dropBox"><span class="gray">또는</span> 여기로 이미지 파일을 끌어오세요.</div>
+                            </div>
+                            <table id="fileListTable">
+                                <tbody id="fileTableTbody">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <a href="#!" class="bottom_btn">데이터 분석 진행</a>
+                    <div class="poa_bg">
+                        <div class="tx99">
+                            <div class="anima">
+                                <div class="cffe674"></div>
+                                <div class="cffc178"></div>
+                                <div class="c72dfa5"></div>
+                            </div>
+                           <div class="tx98">분석중</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="w1500">
+                <div class="le">
+                    <a href="#!" class="logo">
+                        <img src="img/logo2.png" alt="">
+                    </a>
+                    <div class="txW">
+                        <div class="tx1">
+                            <div class="tx2">Address</div>
+                            <div class="tx3">경기 고양시 일산동구 일산로 323 국립안센터</div>
+                        </div>
+                        <div class="tx1">
+                            <div class="tx2">E-mail</div>
+                            <div class="tx3">0000@ncc.re.kr</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ri">
+                    <div class="snsWrap">
+                        <a href="#!">
+                            <img src="img/icon13.png" alt="">
+                        </a>
+                        <a href="#!">
+                            <img src="img/icon14.png" alt="">
+                        </a>
+                    </div>
+                    <div class="tx4">Copyright National Cancer Center. All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg"></div>
+    <script>
+        AOS.init();
+    </script>
+    <!--[if IE]>
+        .title_1 {
+            font-size: 100px;
+            font-weight: 900;
+            color: #008cf4;
+            background: linear-gradient(45deg, #00c8d5, #008cf4);
+            position: relative;
+        }
+    <![endif]-->
+</body>
+
+</html>
