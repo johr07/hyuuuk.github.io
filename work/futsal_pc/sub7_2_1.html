@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>futsal</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="index.html" class="logo">
+                <img src="img/logo1.png" alt="">
+            </a>
+            <div class="menu">
+                <a href="#!" class="fz20">구단</a>
+                <a href="#!" class="fz20">구장</a>
+                <a href="#!" class="fz20">자동매칭</a>
+                <a href="#!" class="fz20">선수매칭</a>
+                <div class="drop">
+                    <a href="#!" class="fz20">풋매소식</a>
+                    <div class="down">
+                        <a href="#!">영상</a>
+                        <a href="#!">사진</a>
+                        <a href="#!">자유게시판</a>
+                        <a href="#!">매칭게시판</a>
+                        <a href="#!">공지사항</a>
+                        <a href="#!">이벤트</a>
+                    </div>
+                </div>
+                <div class="drop">
+                    <a href="#!" class="fz20">고객센터</a>
+                    <div class="down">
+                        <a href="#!">고장신고</a>
+                        <a href="#!">Q&A</a>
+                        <a href="#!">자주묻는질문</a>
+                        <a href="#!">건의사항</a>
+                    </div>
+                </div>
+            </div>
+            <div class="loginWrap">
+                <a href="#!" class="login btn_2 fz16 fwb">로그인</a>
+                <a href="#!" class="login btn_2 fz16 fwb bgcw">회원가입</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub_1">
+                <div class="fz16">소속구단</div>
+                <div class="fz48 fwb">구단등록</div>
+            </div>
+            <div class="w1200">
+                <div class="s72">
+                    <div class="t1 fz14 fwb">필수 입력 사항입니다.</div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">구단 로고</div>
+                        </div>
+                        <div class="ri01 df">
+                            <div class="img1">
+                                <img src="img/img23.png" alt="">
+                            </div>
+                            <div class="upload01 fz13">
+                                <input type="file" id="file01_1">
+                                <label for="file01_1">업로드</label>
+                            </div>
+                            <a href="#!" class="fz13">삭제</a>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">구단 배경</div>
+                        </div>
+                        <div class="ri01 df">
+                            <div class="img1 img2">
+                                <img src="img/img24.png" alt="">
+                            </div>
+                            <div class="upload01 fz13">
+                                <input type="file" id="file01_1">
+                                <label for="file01_1">업로드</label>
+                            </div>
+                            <a href="#!" class="fz13">삭제</a>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2 el">구단명</div>
+                        </div>
+                        <input type="text" class="tx1 fz13">
+                        <a href="#!" class="fz14 btn1 ml14">중복확인</a>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2 el">창단일</div>
+                        </div>
+                        <div class="select">
+                            <select name="" id="" class="fz13 sel1">
+                                <option value="">2020</option>
+                            </select>
+                        </div>
+                        <span class="fz14 year1">년</span>
+                        <div class="select">
+                            <select name="" id="" class="fz13 sel1">
+                                <option value="">01</option>
+                            </select>
+                        </div>
+                        <span class="fz14 year1">월</span>
+                        <div class="select">
+                            <select name="" id="" class="fz13 sel1">
+                                <option value="">01</option>
+                            </select>
+                        </div>
+                        <span class="fz14 year1">일</span>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">연령대</div>
+                        </div>
+                        <div class="select">
+                            <select name="" id="" class="fz13 sel1 sel2">
+                                <option value="">주 연령대 선택</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2 el">주요 활동 지역</div>
+                        </div>
+                        <div class="select mr12">
+                            <select name="" id="" class="fz13 sel1 sel2">
+                                <option value="">서울특별시</option>
+                            </select>
+                        </div>
+                        <div class="select">
+                            <select name="" id="" class="fz13 sel1 sel2">
+                                <option value="">영등포구</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">유니폼 여부</div>
+                        </div>
+                        <input type="checkbox" id="check03">
+                        <label for="check03" class="che01"></label>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">유니폼 색상</div>
+                        </div>
+                        <div class="unif">
+                            <input type="checkbox" id="check03_1">
+                            <label for="check03_1" class="che01 white"></label>
+                            <input type="checkbox" id="check03_2">
+                            <label for="check03_2" class="che01 red"></label>
+                            <input type="checkbox" id="check03_3">
+                            <label for="check03_3" class="che01 orange"></label>
+                            <input type="checkbox" id="check03_4">
+                            <label for="check03_4" class="che01 yellow"></label>
+                            <input type="checkbox" id="check03_5">
+                            <label for="check03_5" class="che01 green"></label>
+                            <input type="checkbox" id="check03_6">
+                            <label for="check03_6" class="che01 skyblue"></label>
+                            <input type="checkbox" id="check03_7">
+                            <label for="check03_7" class="che01 blue"></label>
+                            <input type="checkbox" id="check03_8">
+                            <label for="check03_8" class="che01 purple"></label>
+                            <input type="checkbox" id="check03_9">
+                            <label for="check03_9" class="che01 pink"></label>
+                            <input type="checkbox" id="check03_10">
+                            <label for="check03_10" class="che01 black"></label>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2 el">등급 설정</div>
+                        </div>
+                        <div class="ri3">
+                            <div class="df fz14">
+                                <span>-</span> 일반
+                            </div>
+                            <div class="df">
+                                <div class="imgCa">
+                                    <img src="img/img2.png" alt="">
+                                </div>
+                                <div class="range01">
+                                    <div class="df">
+                                        <div class="fz14">스피드</div>
+                                        <div class="inputRan">
+                                            <input type="range" min="1" max="5" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="df">
+                                        <div class="fz14">체력</div>
+                                        <div class="inputRan">
+                                            <input type="range" min="1" max="5" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="df">
+                                        <div class="fz14">힘</div>
+                                        <div class="inputRan">
+                                            <input type="range" min="1" max="5" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="df">
+                                        <div class="fz14">패스</div>
+                                        <div class="inputRan">
+                                            <input type="range" min="1" max="5" value="0">
+                                        </div>
+                                    </div>
+                                    <div class="df">
+                                        <div class="fz14">수비</div>
+                                        <div class="inputRan">
+                                            <input type="range" min="1" max="5" value="4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fz12 el_red mt10">등급 입력 후 변경 시 포인트가 소모됩니다. 신중히 선택해주세요.</div>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">선수모집</div>
+                        </div>
+                        <div class="ri4 fz12">
+                            <input type="radio" id="ra01" name="ra01" checked>
+                            <label for="ra01">ON</label>
+                            <input type="radio" id="ra02" name="ra01">
+                            <label for="ra02">OFF</label>
+                        </div>
+                    </div>
+                    <div class="df">
+                        <div class="finer">
+                            <div class="fz14 fwb t2">구단소개</div>
+                        </div>
+                        <div class="ri5">
+                            <textarea name="" id="" class="fz14">경기도에서 활동하는 FC 라탄입니다.</textarea>
+                        </div>
+                    </div>
+                    <div class="btn fz16">
+                        <a href="#!" class="bgcb2">취소</a>
+                        <a href="#!" class="bgcp">확인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="w1200">
+                <div class="df">
+                    <div class="le">
+                        <a href="index.html">
+                            <img src="img/logo2.png" alt="">
+                        </a>
+                        <div>
+                            <a href="index.html" class="fz15 fwb">풋살매치</a>
+                            <div class="fz13">
+                                대표 황인수 ㅣ 서울특별시 영등포구 문래로 79-17, 502호<br>
+                                TEL 070-7700-3778 ㅣ E-MAIL mcen@mobilecen.co.kr<br>
+                                사업자등록번호 863-86-00346
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ri">
+                        <div class="fz15 fwb">
+                            <a href="#!">이용약관</a>
+                            <a href="#!">개인정보처리방침</a>
+                        </div>
+                        <div class="fz13">© 2020. FUTSAL MATCH. All Rights Reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

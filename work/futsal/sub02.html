@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css">
+    <title></title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/datepicker.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="leftCon">
+            <div class="header">
+                <div class="gnb">
+                    <div class="item">
+                        <a href="sub01.html">구장 예약 현황</a>
+                    </div>
+                    <div class="item">
+                        <a href="#!" class="bold">구장 정보</a>
+                        <div class="dropDown">
+                            <a href="sub02.html">정보 관리</a>
+                            <a href="sub03.html">일정 관리</a>
+                            <a href="sub04.html">즐겨찾기 회원</a>
+                            <a href="#!">이용 리스트</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#!">선수 매칭 현황</a>
+                    </div>
+                    <div class="item">
+                        <a href="#!">게시판 관리</a>
+                        <div class="dropDown">
+                            <a href="#!">자유게시판</a>
+                            <a href="#!">영상 관리</a>
+                            <a href="#!">사진 관리</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a href="#!">매출 관리</a>
+                    </div>
+                </div>
+                <div class="userWrap">
+                    <a href="#!" class="userId">용산 구장 관리자 님</a>
+                    <a href="#!" class="btn">로그아웃</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="conTitle bold">정보 관리</div>
+                <div class="con10">
+                    <table class="table_3">
+                        <tr>
+                            <th>팩스 번호</th>
+                            <td>
+                                <div class="df">
+                                    <input type="number" class="w80">
+                                    <span class="hip">-</span>
+                                    <input type="number" class="w80">
+                                    <span class="hip">-</span>
+                                    <input type="number" class="w80">
+                                </div>
+                            </td>
+                            <th>휴대폰 번호</th>
+                            <td>
+                                <div class="df">
+                                    <input type="number" class="w80">
+                                    <span class="hip">-</span>
+                                    <input type="number" class="w80">
+                                    <span class="hip">-</span>
+                                    <input type="number" class="w80">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>구장명</th>
+                            <td colspan="3">
+                                <input type="text" class="w280">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>주소</th>
+                            <td colspan="3">
+                                <div class="dfC">
+                                    <div class="item df">
+                                        <input type="text" class="w120">
+                                        <a href="#!" class="gray w80">주소찾기</a>
+                                    </div>
+                                    <input type="text">
+                                    <input type="text">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>지역명</th>
+                            <td>
+                                <div class="df">
+                                    <input type="text" class="w280">
+                                </div>
+                            </td>
+                            <th>구장 크기</th>
+                            <td>
+                                <div class="df">
+                                    <input type="number" class="w80">
+                                    <span class="tx5">m</span>
+                                    <span class="tx6">X</span>
+                                    <input type="number" class="w80">
+                                    <span class="tx5">m</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>주소</th>
+                            <td colspan="3">
+                                <div class="df">
+                                    <div class="con4">
+                                        <div class="selWarp">
+                                            <div class="sel">
+                                                <input type="checkbox" id="checkbox09_1">
+                                                <label for="checkbox09_1">잔디</label>
+                                                <input type="checkbox" id="checkbox09_2">
+                                                <label for="checkbox09_2">샤워시설</label>
+                                                <input type="checkbox" id="checkbox09_3">
+                                                <label for="checkbox09_3">주차장 유무</label>
+                                                <input type="checkbox" id="checkbox09_4">
+                                                <label for="checkbox09_4">실내</label>
+                                                <input type="checkbox" id="checkbox09_5">
+                                                <label for="checkbox09_5">실외</label>
+                                                <input type="checkbox" id="checkbox09_6">
+                                                <label for="checkbox09_6">공대여</label>
+                                                <input type="checkbox" id="checkbox09_7">
+                                                <label for="checkbox09_7">풋살화 대여</label>
+                                                <input type="checkbox" id="checkbox09_8">
+                                                <label for="checkbox09_8">팀 조끼 대여</label>
+                                                <input type="checkbox" id="checkbox09_9">
+                                                <label for="checkbox09_9">매점</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div class="dfC">
+                                    <div class="tx">구장 평가</div>
+                                    <span class="txRed">(수정불가 부분)</span>
+                                </div>
+                            </th>
+                            <td colspan="3">
+                                <div class="df">
+                                    <div class="grapW">
+                                        <img src="img/img_2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>최대 수용 인원</th>
+                            <td colspan="3">
+                                <input type="number" class="w280">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                안내사항&<br>
+                                이용규칙
+                            </th>
+                            <td colspan="3">
+                                <textarea name="" id="" class="taH320" readonly><주차 상세>
+- 주차 불가 
+- 야탑역 도보 10분거리
+
+<대여 상세>
+- 공, 팀 조끼 무상 대여
+
+<물, 음료>
+- 정수기 사용 가능
+
+** 풋살장 예약시간 준수
+** 시설 사용 후 정리정돈
+** 고의 및 과실로 인한 시설물 훼손 및 파손 시 사용자가 배상하며 경기 중 부상은 본인이 책임 집니다.
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                구장 환불&<br>
+                                변경 규정
+                            </th>
+                            <td colspan="3">
+                                <textarea name="" id="" class="taH190" readonly>- 이용 5일 전까지 100% 환불
+- 4일전 ~3일 50% 환불
+- 2일전 ~대관 당일 : 환불 불가
+
+** 해당 환불 규정은 구장 이용 날짜를 기준으로 합니다.
+
+**1회 이상 날짜 변경된 예약 건은 환불 처리가 불가능 합니다.
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>한줄 소개</th>
+                            <td colspan=" 3">
+                                <input type="text"">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>이미지 첨부</th>
+                            <td colspan=" 3">
+                                <div class="item df">
+                                    <a href="#!" class="violet w80">추가</a>
+                                    <a href="#!" class="gray w80">삭제</a>
+                                    <div class="filebox df">
+                                        <label for="ex_filename" class="white w80">파일 선택</label>
+                                        <input class="upload-name" value="선택된 파일 없음" disabled="disabled">
+                                        <input type="file" id="ex_filename" class="upload-hidden">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="botomBtn">
+                        <a href="#!">수정</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" footer">
+                <a href="#!" class="fLogo">
+                    <img src="img/logo_2.png" alt="">
+                </a>
+                <div class="fCon">
+                    <div class="tx1">
+                        풋살매치 ㅣ 대표 황인수 ㅣ 사업자등록번호 863-86-00346<br>
+                        주소 서울특별시 영등포구 문래로 79-17 건영빌딩 502호<br>
+                        Tel 070-7700-3778 ㅣ E-mail mcen@mobilecen.co.kr
+                    </div>
+                    <div class="tx2">Copyright 2020. futsalmatch. All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+        <div class="rightCon">
+            <a href="#!" class="logo"><img src="img/logo_1.png" alt=""></a>
+            <div class="con3">
+                <div class="tx3">좋아하는 구장을 누른 사용자 수</div>
+                <div class="tx2">
+                    <img src="img/icon_10.png" alt=""><span class="ml10">154</span>
+                </div>
+            </div>
+            <div class="con3">
+                <div class="tx3">이주의 예약 건수</div>
+                <div class="tx2">18</div>
+            </div>
+            <div class="con3">
+                <div class="tx3">이달의 매출</div>
+                <div class="tx2">
+                    <span class="tx4 medium">￦</span><span class="ml10">15,000</span>
+                </div>
+            </div>
+            <div class="con3">
+                <div class="tx3">예약 통계</div>
+                <img src="img/img_1.png" alt="">
+            </div>
+            <div class="con3">
+                <div class="tx3">댓글</div>
+                <div class="tx5">
+                    <span class="tx6">1</span> 최근 달린 댓글을 입력하세요.
+                </div>
+                <div class="tx5">
+                    <span class="tx6">2</span> 최근 달린 댓글을 입력하세요.
+                </div>
+                <div class="tx5">
+                    <span class="tx6">3</span> 최근 달린 댓글을 입력하세요.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

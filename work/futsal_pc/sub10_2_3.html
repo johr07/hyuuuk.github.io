@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>futsal</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="index.html" class="logo">
+                <img src="img/logo1.png" alt="">
+            </a>
+            <div class="menu">
+                <a href="#!" class="fz20">구단</a>
+                <a href="#!" class="fz20">구장</a>
+                <a href="#!" class="fz20">자동매칭</a>
+                <a href="#!" class="fz20">선수매칭</a>
+                <div class="drop">
+                    <a href="#!" class="fz20">풋매소식</a>
+                    <div class="down">
+                        <a href="#!">영상</a>
+                        <a href="#!">사진</a>
+                        <a href="#!">자유게시판</a>
+                        <a href="#!">매칭게시판</a>
+                        <a href="#!">공지사항</a>
+                        <a href="#!">이벤트</a>
+                    </div>
+                </div>
+                <div class="drop">
+                    <a href="#!" class="fz20">고객센터</a>
+                    <div class="down">
+                        <a href="#!">고장신고</a>
+                        <a href="#!">Q&A</a>
+                        <a href="#!">자주묻는질문</a>
+                        <a href="#!">건의사항</a>
+                    </div>
+                </div>
+            </div>
+            <div class="loginWrap">
+                <a href="#!" class="login btn_2 fz16 fwb">로그인</a>
+                <a href="#!" class="login btn_2 fz16 fwb bgcw">회원가입</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub_1">
+                <div class="fz16">회원 정보 관리</div>
+                <div class="fz48 fwb">회원가입</div>
+            </div>
+            <div class="w580">
+                <div class="s1022 s72">
+                    <div class="dfc">
+                        <div class="t2 fz16 fwb mt0">프로필 사진</div>
+                        <div class="ri01">
+                            <div class="img1 mb20">
+                                <img src="img/img23.png" alt="">
+                            </div>
+                            <div class="df">
+                                <div class="upload01 fz13">
+                                    <input type="file" id="file01_1">
+                                    <label for="file01_1">업로드</label>
+                                </div>
+                                <a href="#!" class="fz13">삭제</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dfc">
+                        <div class="t2 fz16 fwb">활동지역</div>
+                        <div class="df jcsb">
+                            <div class="select">
+                                <select name="" id="" class="w210">
+                                    <option value="">시/도</option>
+                                </select>
+                            </div>
+                            <div class="select">
+                                <select name="" id="" class="w210">
+                                    <option value="">시/군/구</option>
+                                </select>
+                            </div>
+                            <div class="btn1_plma"><img src="img/icon_34.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="df2">
+                        <div class="dfc5 ke">
+                            <div class="t2 fz16 fwb">키</div>
+                            <div class="df">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="dfc5 ml12 mom">
+                            <div class="t2 fz16 fwb">몸무게</div>
+                            <div class="df">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="df2">
+                        <div class="dfc5">
+                            <div class="t2 fz16 fwb">선수 출신</div>
+                            <div class="df">
+                                <input type="checkbox" id="check03">
+                                <label for="check03" class="che01"></label>
+                            </div>
+                            <div class="fz12 el_blue mt10">KFA에서 주관하는 중등 전문축구 대회 및 리그에 선수로 활동했거나 활동중인 사람 </div>
+                        </div>
+                        <div class="dfc5 ml12">
+                            <div class="t2 fz16 fwb">경력</div>
+                            <div class="select">
+                                <select name="" id="" class="w210">
+                                    <option value="">1년</option>
+                                </select>
+                            </div>
+                            <div class="fz12 el_blue mt10">비선출 경력으로서 풋살을 시작한 경력</div>
+                        </div>
+                    </div>
+                    <div class="dfc">
+                        <div class="t2 fz16 fwb">능력 등급</div>
+                        <div class="df df4">
+                            <div class="chat">
+                                <img src="img/img29.png" alt="">
+                            </div>
+                            <div class="range01">
+                                <div class="df">
+                                    <div class="fz14">스피드</div>
+                                    <div class="inputRan">
+                                        <input type="range" min="1" max="5" value="0">
+                                    </div>
+                                </div>
+                                <div class="df">
+                                    <div class="fz14">체력</div>
+                                    <div class="inputRan">
+                                        <input type="range" min="1" max="5" value="0">
+                                    </div>
+                                </div>
+                                <div class="df">
+                                    <div class="fz14">힘</div>
+                                    <div class="inputRan">
+                                        <input type="range" min="1" max="5" value="0">
+                                    </div>
+                                </div>
+                                <div class="df">
+                                    <div class="fz14">패스</div>
+                                    <div class="inputRan">
+                                        <input type="range" min="1" max="5" value="0">
+                                    </div>
+                                </div>
+                                <div class="df">
+                                    <div class="fz14">수비</div>
+                                    <div class="inputRan">
+                                        <input type="range" min="1" max="5" value="4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fz12 el_red mt10">등급 입력 후 변경 시 포인트가 소모됩니다. 신중히 선택해주세요!</div>
+                    </div>
+                    <div class="dfc">
+                        <div class="t2 fz16 fwb">주 사용 발</div>
+                        <div class="ri4 fz12 footSel">
+                            <input type="radio" id="ra03" name="ra02" checked>
+                            <label for="ra03" class="mr12">
+                                왼발
+                            </label>
+                            <input type="radio" id="ra04" name="ra02">
+                            <label for="ra04" class="mr12">
+                                양발
+                            </label>
+                            <input type="radio" id="ra05" name="ra02">
+                            <label for="ra05">
+                                오른발
+                            </label>
+                        </div>
+                    </div>
+                    <div class="dfc">
+                        <div class="t2 fz16 fwb">용병 가능 여부</div>
+                        <div class="ri3">
+                            <div class="ri4 fz12">
+                                <input type="radio" id="ra01" name="ra01" checked>
+                                <label for="ra01">ON</label>
+                                <input type="radio" id="ra02" name="ra01">
+                                <label for="ra02">OFF</label>
+                            </div>
+                            <div class="fz12 el_blue mt10">ON 활성화 시 다른 구단으로부터 일일 용병 제의를 받을 수 있습니다.</div>
+                        </div>
+                    </div>
+                    <div class="dfc">
+                        <div class="t2 fz16 fwb">자기 소개</div>
+                        <div class="ri5">
+                            <textarea name="" id="" class="fz14" placeholder="자기소개를 225자 이내로 작성해주세요."></textarea>
+                            <div class="fz12 el_blue mt10">구단에서 소개 글을 읽고 용병/구단 제의를 하니 자신을 표현할 수 있는 글을 적어주세요!</div>
+                        </div>
+                    </div>
+                    <div class="fz12 el_blue mt50">정보를 모두 입력시 소정의 리워드를 증정합니다.</div>
+                    <div class="btn_wrap1 mt15">
+                        <a href="#!" class="fz16 bgcb2">건너뛰기</a>
+                        <a href="#!" class="fz16 bgcp">등록</a>
+                    </div>
+                </div>
+                <div class="s1023_2">
+                    <img src="img/icon_84.png" alt="">
+                    <div class="fz24 fwb">회원가입이 완료되었습니다!</div>
+                    <div class="fz14">
+                        모든 회원가입 절차가 완료되었습니다.<br>
+                        가입하신 ‘아이디’ 와 ‘비밀번호’로
+                        로그인이 가능합니다.
+                    </div>
+                    <div class="btn_wrap1">
+                        <a href="#!" class="bgcp">확인</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="w1200">
+                <div class="df">
+                    <div class="le">
+                        <a href="index.html">
+                            <img src="img/logo2.png" alt="">
+                        </a>
+                        <div>
+                            <a href="index.html" class="fz15 fwb">풋살매치</a>
+                            <div class="fz13">
+                                대표 황인수 ㅣ 서울특별시 영등포구 문래로 79-17, 502호<br>
+                                TEL 070-7700-3778 ㅣ E-MAIL mcen@mobilecen.co.kr<br>
+                                사업자등록번호 863-86-00346
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ri">
+                        <div class="fz15 fwb">
+                            <a href="#!">이용약관</a>
+                            <a href="#!">개인정보처리방침</a>
+                        </div>
+                        <div class="fz13">© 2020. FUTSAL MATCH. All Rights Reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
